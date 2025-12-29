@@ -1,0 +1,6 @@
+if SHIELD_DILLY
+
+config ZMK_KEYBOARD_NAME
+    default "Dilly"
+
+endif
