@@ -16,3 +16,4 @@ include:
   # Dilly keyboard with nice!nano v2 (using Pro Micro pin mappings)
   - board: nice_nano
     shield: dilly
+    shield: settings_reset
