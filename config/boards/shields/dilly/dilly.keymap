@@ -11,9 +11,9 @@
 
 // #include <dt-bindings/zmk/mouse.h>
 
-#define DEFAULT 0
-#define fn1 1
-#define fn2 2
+#define DEFAULT
+#define RAISE
+#define LOWER
 
 / {
     keymap {
@@ -25,12 +25,12 @@
             bindings = <
                 &kp Q       &kp W       &kp E       &kp R       &kp T         &kp Y           &kp U       &kp I       &kp O       &kp P
                 &kp A       &kp S       &kp D       &kp F       &kp G         &kp H           &kp J       &kp K       &kp L       &kp SEMI
-                &lt LSFT Z  &lt LCTRL X &lt LALT C  &lt fn1 V   &kp SPACE     &kp B           &lt fn2 N   &kp M       &kp DOT     &kp FSLH
+                &lt LSFT Z  &lt LCTRL X &lt LALT C  &lt RAISE V &kp SPACE     &kp B           &lt LOWER N &kp M       &kp DOT     &kp FSLH
             >;
         };
 
-        fn1_layer {
-            display-name = "fn1";
+        raise_layer {
+            display-name = "RAISE";
             bindings = <
                 &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &kp N6     &kp N7    &kp N8    &kp N9    &kp N0
                 &kp TAB   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT &kp CARET  &kp AMPS  &kp ASTRK &kp LPAR  &kp RPAR
@@ -38,8 +38,8 @@
             >;
         };
 
-        fn2_layer {
-            display-name = "fn2";
+        lower_layer {
+            display-name = "LOWER";
             bindings = <
                 &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6     &kp F7       &kp F8       &kp F9       &kp F10
                 &kp F11   &kp F12   &trans    &trans    &trans    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
