@@ -14,6 +14,8 @@
 
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
+        compatible = "zmk,physical-layout-position-map";
+        complete;
         columns = <10>;  // Logical columns in the keymap
         rows = <3>;     // Logical rows in the keymap
         // Physical matrix is 6 rows x 5 columns
