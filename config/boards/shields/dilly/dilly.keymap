@@ -34,18 +34,18 @@
         fn1_layer {
             display-name = "fn1";
             bindings = <
-                &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &kp N6    &kp N7    &kp N8    &kp N9    &kp N0
-                &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR
-                &trans    &trans    &trans    &trans    &kp BSPC  &trans    &trans    &kp fn3   &trans    &trans
+                &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &kp N6     &kp N7    &kp N8    &kp N9    &kp N0
+                &kp TAB   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT &kp CARET  &kp AMPS  &kp ASTRK &kp LPAR  &kp RPAR
+                &trans    &trans    &trans    &trans    &kp BSPC  &trans     &kp fn3   &trans    &trans    &trans
             >;
         };
 
         fn2_layer {
             display-name = "fn2";
             bindings = <
-                 &kp F1   &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &kp F7    &kp F8    &kp F9    &kp F10
+                &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &kp F7    &kp F8    &kp F9    &kp F10
                 &kp F11   &kp F12   &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp GRAVE
-                &trans    &trans    &trans    &trans    &trans    &kp DEL   &trans    &kp Q     &kp W     &kp E
+                &trans    &trans    &trans    &kp fn3   &trans    &kp DEL   &trans    &kp Q     &kp W     &kp E
             >;
         };
 
@@ -54,7 +54,7 @@
             bindings = <
                 // Navigation and symbols
                 &trans    &trans    &trans    &trans    &trans    &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH
-                &kp TAB   &trans    &trans    &trans    &trans    &kp COMMA &kp DOT   &kp FSLH &kp SCLN &kp QUOT
+                &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp COMMA &kp DOT   &kp FSLH &kp SCLN &kp QUOT
                 &trans    &trans    &trans    &trans    &kp BSPC  &trans    &kp LEFT  &kp DOWN &kp UP   &kp RIGHT
             >;
         };
