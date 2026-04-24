@@ -45,7 +45,7 @@
             bindings = <
                 &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &kp F7    &kp F8    &kp F9    &kp F10
                 &kp F11   &kp F12   &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp GRAVE
-                &trans    &trans    &trans    &kp fn3   &trans    &kp DEL   &trans    &kp Q     &kp W     &kp E
+                &trans    &trans    &trans    &kp fn3   &trans    &kp DEL   &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT
             >;
         };
 
@@ -53,9 +53,9 @@
             display-name = "fn3";
             bindings = <
                 // Navigation and symbols
-                &trans    &trans    &trans    &trans    &trans    &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH
-                &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp COMMA &kp DOT   &kp FSLH &kp SCLN &kp QUOT
-                &trans    &trans    &trans    &trans    &kp BSPC  &trans    &kp LEFT  &kp DOWN &kp UP   &kp RIGHT
+                &trans          &trans       &trans       &trans       &trans       &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH
+                &bt BT_CLR      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp COMMA &kp DOT   &kp FSLH &kp SCLN &kp QUOT
+                &studio_unlock  &trans       &trans       &trans       &kp BSPC     &trans    &trans    &trans   &trans   &trans
             >;
         };
 
@@ -65,7 +65,7 @@
                 // More symbols
                 &trans    &trans    &trans    &trans    &trans    &kp UNDER &kp PLUS  &kp LBRC &kp RBRC &kp SQT
                 &trans    &trans    &kp LWIN  &trans    &kp BSPC  &trans    &kp HOME  &kp PGDN &kp PGUP &kp END
-                &trans    &trans    &trans    &trans    &trans    &kp DEL   &trans    &kp Q     &kp W     &kp E
+                &trans    &trans    &trans    &trans    &trans    &kp DEL   &trans    &kp Q    &kp W    &kp E
             >;
         };
     };
