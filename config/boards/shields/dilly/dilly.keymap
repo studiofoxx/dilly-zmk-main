@@ -65,6 +65,7 @@
                 // More symbols
                 &trans    &trans    &trans    &trans    &trans    &kp UNDER &kp PLUS  &kp LBRC &kp RBRC &kp SQT
                 &trans    &trans    &kp LWIN  &trans    &kp BSPC  &trans    &kp HOME  &kp PGDN &kp PGUP &kp END
+                &trans    &trans    &trans    &trans    &trans    &kp DEL   &trans    &kp Q     &kp W     &kp E
             >;
         };
     };
