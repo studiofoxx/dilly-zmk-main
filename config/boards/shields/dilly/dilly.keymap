@@ -9,6 +9,14 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
+// #include <dt-bindings/zmk/mouse.h>
+
+#define DEFAULT 0
+#define fn1 1
+#define fn2 2
+#define fn3 3
+#define fn4 4
+
 / {
     keymap {
         compatible = "zmk,keymap";
